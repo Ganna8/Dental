@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj",
+        "projectName": "clinic",
+        "projectPath": "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj",
+        "projectName": "EditProfile1",
+        "projectPath": "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj",
+        "projectName": "RequestMaterial",
+        "projectPath": "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+        "projectName": "WindowsFormsApp3",
+        "projectPath": "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj": {
+                "projectPath": "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj",
+        "projectName": "Task3",
+        "projectPath": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0-windows7.0": {
+            "targetAlias": "net6.0-windows",
+            "projectReferences": {
+              "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj": {
+                "projectPath": "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj"
+              },
+              "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj": {
+                "projectPath": "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj"
+              },
+              "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj": {
+                "projectPath": "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj"
+              },
+              "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj": {
+                "projectPath": "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WindowsForms": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
