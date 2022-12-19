@@ -1,76 +1,15 @@
 {
   "version": 3,
   "targets": {
-    "net6.0-windows7.0": {
-      "clinic/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/clinic.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/clinic.dll": {}
-        }
-      },
-      "EditProfile1/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/EditProfile1.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/EditProfile1.dll": {}
-        }
-      },
-      "RequestMaterial/1.0.0": {
-        "type": "project",
-        "compile": {
-          "bin/placeholder/RequestMaterial.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/RequestMaterial.dll": {}
-        }
-      },
-      "WindowsFormsApp3/1.0.0": {
-        "type": "project",
-        "dependencies": {
-          "clinic": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/WindowsFormsApp3.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/WindowsFormsApp3.dll": {}
-        }
-      }
-    }
+    "net6.0-windows7.0": {}
   },
-  "libraries": {
-    "clinic/1.0.0": {
-      "type": "project",
-      "path": "../../../../Downloads/clinic-20221201T074208Z-001/clinic/clinic.csproj",
-      "msbuildProject": "../../../../Downloads/clinic-20221201T074208Z-001/clinic/clinic.csproj"
-    },
-    "EditProfile1/1.0.0": {
-      "type": "project",
-      "path": "../../../../Downloads/EditProfile1/EditProfile1/EditProfile1/EditProfile1.csproj",
-      "msbuildProject": "../../../../Downloads/EditProfile1/EditProfile1/EditProfile1/EditProfile1.csproj"
-    },
-    "RequestMaterial/1.0.0": {
-      "type": "project",
-      "path": "../../../../Downloads/RequestMaterial/RequestMaterial/RequestMaterial/RequestMaterial.csproj",
-      "msbuildProject": "../../../../Downloads/RequestMaterial/RequestMaterial/RequestMaterial/RequestMaterial.csproj"
-    },
-    "WindowsFormsApp3/1.0.0": {
-      "type": "project",
-      "path": "../../../../Downloads/WindowsFormsApp3-20221201T193411Z-001/WindowsFormsApp3/WindowsFormsApp3.csproj",
-      "msbuildProject": "../../../../Downloads/WindowsFormsApp3-20221201T193411Z-001/WindowsFormsApp3/WindowsFormsApp3.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
-      "EditProfile1 >= 1.0.0",
-      "RequestMaterial >= 1.0.0",
-      "WindowsFormsApp3 >= 1.0.0",
-      "clinic >= 1.0.0"
+      "C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj",
+      "C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj",
+      "C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+      "C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj"
     ]
   },
   "packageFolders": {
@@ -80,11 +19,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\Source\\Repos\\Ganna8\\Dental\\Task3\\Task3.csproj",
       "projectName": "Task3",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj",
+      "projectPath": "C:\\Users\\hp\\Source\\Repos\\Ganna8\\Dental\\Task3\\Task3.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\obj\\",
+      "outputPath": "C:\\Users\\hp\\Source\\Repos\\Ganna8\\Dental\\Task3\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -105,17 +44,17 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj": {
-              "projectPath": "C:\\Users\\hp\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj"
+            "C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj": {
+              "projectPath": "C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj"
             },
-            "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj": {
-              "projectPath": "C:\\Users\\hp\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj"
+            "C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj": {
+              "projectPath": "C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj"
             },
-            "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj": {
-              "projectPath": "C:\\Users\\hp\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj"
+            "C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj": {
+              "projectPath": "C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj"
             },
-            "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj": {
-              "projectPath": "C:\\Users\\hp\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj"
+            "C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj": {
+              "projectPath": "C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj"
             }
           }
         }
@@ -151,5 +90,43 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }

@@ -1,8 +1,45 @@
 {
   "version": 2,
-  "dgSpecHash": "5Exx+4oFTV1U2NnPczG5221pEBWQr/jhIYndKJaPSPvlsRXSJy65r4KGOx/wznnvqIOSwjzoDJVnDE2B4CDC3Q==",
-  "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\Task3\\Task3\\Task3.csproj",
+  "dgSpecHash": "ocuDvKJLzFyHAz4D1SQ/KjgPb26b0Ycwbt6P5uaS9cjCdmyKo6767WzyIUzaCPQ+8a/L5XK1CGtITCd5gVfUiQ==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\hp\\Source\\Repos\\Ganna8\\Dental\\Task3\\Task3.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\clinic-20221201T074208Z-001\\clinic\\clinic.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\RequestMaterial\\RequestMaterial\\RequestMaterial\\RequestMaterial.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\WindowsFormsApp3-20221201T193411Z-001\\WindowsFormsApp3\\WindowsFormsApp3.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    },
+    {
+      "code": "NU1104",
+      "level": "Error",
+      "message": "Unable to find project 'C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj'. Check that the project reference is valid and that the project file exists.",
+      "libraryId": "C:\\Users\\hp\\Source\\Downloads\\EditProfile1\\EditProfile1\\EditProfile1\\EditProfile1.csproj",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
 }
